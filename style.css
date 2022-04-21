@@ -1,0 +1,552 @@
+#home {
+	background-color: darkred;
+	text-align: center;
+}
+
+@font-face { font-family: Doom; src: url('EternalBattleBold-vm5rD.TTF'); }
+
+#Doom_Banner.jpg {
+	text-align: center;
+}
+
+#headtitle {
+	font-size: 60px;
+	font-family: Doom;
+	text-align: center;
+}
+
+#entrance {
+  font-size: 40px;
+  font-family: Doom;
+  text-align: center;
+}
+
+#centerroom {
+	background-color: darkred;
+}
+
+#slayer {
+	font-size: 60px;
+	font-family: Doom;
+	text-align: center;
+}
+
+#slayertitle {
+	font-size: 25px;
+	font-family: Doom;
+	text-align: center;
+}
+
+#slayerdescription {
+	font-family: Doom;
+	border-style: inset;
+	border-color: darkred;
+}
+
+#descborder{
+	background: darkred;
+	position: absolute;
+	bottom: -293px;
+  	right: 200px;
+  	width: 420px;
+}
+
+#slayerpic {
+	position: absolute;
+	left: 275px;
+}
+
+#centrallinks {
+	position: absolute;
+	left: 5px;
+	width: 258px;
+	height: 450px;
+	background-color: darkgreen;
+	border-style: inset;
+	border-color: darkgreen;
+}
+
+a {
+  color: black;
+}
+
+#backroom{
+	background-color: darkcyan;
+}
+
+#datalogs {
+	font-size: 60px;
+	font-family: Doom;
+	text-align: center;
+}
+
+#datainfo {
+	font-size: 25px;
+	font-family: Doom;
+	text-align: center;
+}
+
+#datapic {
+	text-align: center;
+}
+
+#datafiles {
+	font-family: Doom;
+}
+
+#backlinks {
+	position: fixed;
+	left: 5px;
+	bottom: 80px;
+	width: 258px;
+	height: 450px;
+	background-color: darkgreen;
+	border-style: inset;
+	border-color: darkgreen;
+}
+
+#databorder{
+	background: darkcyan;
+	position: absolute;
+	bottom: -1550px;
+  	right: 350px;
+  	width: 720px;
+  	border-style: inset;
+  	border-color: darkcyan;
+}
+
+#rightlinks {
+	position: fixed;
+	left: 5px;
+	bottom: 300px;
+	width: 258px;
+	height: 350px;
+	background-color: darkgreen;
+	border-style: inset;
+	border-color: darkgreen;
+}
+
+#enemies {
+	font-size: 50px;
+	font-family: Doom;
+	text-align: center;
+}
+
+#enemytitle {
+	font-size: 35px;
+	font-family: Doom;
+	text-align: center;
+}
+
+#enemypic {
+	position: absolute;
+	bottom: 500px;
+  	right: 1075px;
+  	height: 25px;
+  	width: 25px;
+}
+
+#enemydescription {
+	font-family: Doom;
+}
+
+#demontitle{
+	font-family: Doom;
+}
+
+#unwillingdescborder{
+	background: gray;
+	position: absolute;
+	bottom: -200px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#unwilling {
+	position: absolute;
+	bottom: -400px;
+  	right: 700px;
+}
+
+#zombiedescborder{
+	background: gray;
+	position: absolute;
+	bottom: -800px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#zombie {
+	position: absolute;
+	bottom: -850px;
+  	right: 700px;
+}
+
+#impdescborder{
+	background: gray;
+	position: absolute;
+	bottom: -1400px;
+  	right: 200px;
+  	width: 450px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#imp {
+	position: absolute;
+	bottom: -1350px;
+  	right: 700px;
+}
+
+#soldierdescborder{
+	background: gray;
+	position: absolute;
+	bottom: -1800px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#soldier {
+	position: absolute;
+	bottom: -1900px;
+  	right: 700px;
+}
+
+#hellknightdescborder{
+	background: gray;
+	position: absolute;
+	bottom: -2370px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#hellknight {
+	position: absolute;
+	bottom: -2400px;
+  	right: 700px;
+}
+
+#mancubusdescborder{
+	background: gray;
+	position: absolute;
+	bottom: -2800px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#mancubus {
+	position: absolute;
+	bottom: -2700px;
+  	right: 675px;
+}
+
+#cacodemondescborder{
+	background: gray;
+	position: absolute;
+	bottom: -3250px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#cacodemon {
+	position: absolute;
+	bottom: -3250px;
+  	right: 700px;
+}
+
+#hellbarondemondescborder{
+	background: gray;
+	position: absolute;
+	bottom: -3700px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#hellbaron {
+	position: absolute;
+	bottom: -3600px;
+  	right: 700px;
+}
+
+#rightlinks1 {
+	position: fixed;
+	left: 5px;
+	bottom: 300px;
+	width: 258px;
+	height: 100px;
+	background-color: darkgreen;
+	border-style: inset;
+	border-color: darkgreen;
+}
+
+#daisyslayerpic {
+	position: absolute;
+	bottom: 500px;
+  	right: 965px;
+  	height: 25px;
+  	width: 25px;
+}
+
+#daisydescborder{
+	background: gray;
+	position: absolute;
+	bottom: -500px;
+  	right: 400px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#daisy {
+	position: absolute;
+	bottom: -450px;
+  	right: 775px;
+}
+
+#daisyroom {
+	background-color: saddlebrown;
+}
+
+#leftlinks {
+	position: fixed;
+	left: 5px;
+	bottom: 275px;
+	width: 258px;
+	height: 450px;
+	background-color: darkgreen;
+	border-style: inset;
+	border-color: darkgreen;
+}
+
+#supershotgundescborder{
+	background: gray;
+	position: absolute;
+	bottom: -400px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#supershotgun {
+	position: absolute;
+	bottom: -300px;
+  	right: 700px;
+}
+
+#crucibledescborder{
+	background: gray;
+	position: absolute;
+	bottom: -800px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#crucible {
+	position: absolute;
+	bottom: -1000px;
+  	right: 750px;
+}
+
+#doombladedescborder{
+	background: gray;
+	position: absolute;
+	bottom: -1300px;
+  	right: 200px;
+  	width: 450px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#doomblade {
+	position: absolute;
+	bottom: -1250px;
+  	right: 700px;
+}
+
+#heavycannondescborder{
+	background: gray;
+	position: absolute;
+	bottom: -1900px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#heavycannon {
+	position: absolute;
+	bottom: -1800px;
+  	right: 700px;
+}
+
+#plasmarifledescborder{
+	background: gray;
+	position: absolute;
+	bottom: -2200px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#plasmarifle {
+	position: absolute;
+	bottom: -2150px;
+  	right: 700px;
+}
+
+#rocketlauncherdescborder{
+	background: gray;
+	position: absolute;
+	bottom: -2400px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#rocketlauncher {
+	position: absolute;
+	bottom: -2450px;
+  	right: 675px;
+}
+
+#chainsawdescborder{
+	background: gray;
+	position: absolute;
+	bottom: -2600px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#chainsaw {
+	position: absolute;
+	bottom: -2600px;
+  	right: 700px;
+}
+
+#bfgdescborder{
+	background: gray;
+	position: absolute;
+	bottom: -2900px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#bfg {
+	position: absolute;
+	bottom: -2850px;
+  	right: 700px;
+}
+
+#doomonedescborder{
+	background: gray;
+	position: absolute;
+	bottom: -300px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#doomone {
+	position: absolute;
+	bottom: -400px;
+  	right: 700px;
+}
+
+#doomtwodescborder{
+	background: gray;
+	position: absolute;
+	bottom: -700px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#doomtwo {
+	position: absolute;
+	bottom: -800px;
+  	right: 700px;
+}
+
+#doomthreedescborder{
+	background: gray;
+	position: absolute;
+	bottom: -1000px;
+  	right: 200px;
+  	width: 450px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#doomthree {
+	position: absolute;
+	bottom: -1250px;
+  	right: 700px;
+}
+
+#doom2016descborder{
+	background: gray;
+	position: absolute;
+	bottom: -1600px;
+  	right: 300px;
+  	width: 350px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#doom2016 {
+	position: absolute;
+	bottom: -1800px;
+  	right: 700px;
+}
+
+#doometernaldescborder{
+	background: gray;
+	position: absolute;
+	bottom: -2000px;
+  	right: 150px;
+  	width: 500px;
+  	border-style: inset;
+  	border-color: gray;
+}
+
+#doometernal {
+	position: absolute;
+	bottom: -2250px;
+  	right: 700px;
+}
+
+#leftlinks1 {
+	position: fixed;
+	left: 5px;
+	bottom: 300px;
+	width: 258px;
+	height: 100px;
+	background-color: darkgreen;
+	border-style: inset;
+	border-color: darkgreen;
+}
