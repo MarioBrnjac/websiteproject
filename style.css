@@ -3,7 +3,7 @@
 	text-align: center;
 }
 
-@font-face { font-family: Doom; src: url('EternalBattleBold-vm5rD.TTF'); }
+@font-face { font-family: Doom; src: url('./EternalBattleBold-vm5rD.ttf'); }
 
 #Doom_Banner.jpg {
 	text-align: center;
